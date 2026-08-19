@@ -1,0 +1,9 @@
+# Core analysis and figures.
+numpy
+pandas
+scipy
+matplotlib
+
+# Only needed to refresh the cached queries (`--refresh`).
+# Every figure in this repo reproduces from the committed cache without it.
+neuprint-python

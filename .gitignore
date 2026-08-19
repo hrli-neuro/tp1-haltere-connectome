@@ -1,0 +1,20 @@
+# Regenerated on every run
+results/
+
+# FANC-derived tables are NOT cleared for public release; see README.
+# results/ above already covers FANC figures, but this is belt-and-braces so a
+# change to the results/ rule cannot expose them by accident.
+data/fanc/
+results/fanc/
+
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Hand-assembled manuscript figures: these combine panels from all three
+# connectomes and therefore contain FANC-derived results, which are not cleared
+# for public release.  Remove these lines once the collaborator signs off.
+Figure_Sup/
+tp1_combined_figure*.svg
+tp1_combined_figure*.pdf
